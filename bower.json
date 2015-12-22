@@ -1,0 +1,25 @@
+{
+  "name": "redesign",
+  "version": "0.0.0",
+  "authors": [
+    "Kenny Mark <markcoffiekenneth@gmaill.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "www.kennymark.me",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "wow": "wowjs#~1.1.2",
+    "jquery": "~2.1.4",
+    "animate.css": "animate-css#~3.5.0"
+  }
+}

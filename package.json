@@ -1,0 +1,22 @@
+{
+  "name": "kennymarkv3",
+  "version": "1.0.0",
+  "description": "Version 3 of my website",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "my",
+    "website",
+    "kennymark.me",
+    "kennymark",
+    "github",
+    "redesign"
+  ],
+  "author": "Kenneth Mark coffie",
+  "license": "ISC",
+  "devDependencies": {
+    
+  }
+}
