@@ -293,7 +293,7 @@ input {
   .btn:hover {
     color: #fff;
     background: #73BFA2;
-    transition: background 0.3s ease;
+    transition: background 0.3s cubic-bezier(0.37, -0.79, 0.72, 0.32);
     border: 2px solid #73BFA2; }
   .btn:focus {
     border-bottom: 2px solid #96cfb9;
