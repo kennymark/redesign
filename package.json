@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "animate.css",
   "version": "3.5.0",
   "main": "animate.css",
@@ -39,5 +40,26 @@
   "dependencies": {
     "gulp": "^3.9.0",
     "gulp-sass": "^2.1.1"
+=======
+  "name": "kennymarkv3",
+  "version": "1.0.0",
+  "description": "Version 3 of my website",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "my",
+    "website",
+    "kennymark.me",
+    "kennymark",
+    "github",
+    "redesign"
+  ],
+  "author": "Kenneth Mark coffie",
+  "license": "ISC",
+  "devDependencies": {
+    
+>>>>>>> bb795cf4a29c8c29a10eb4ed77c2c4673f3bc4b5
   }
 }

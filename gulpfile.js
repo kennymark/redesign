@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // Gulp
 var gulp = require('gulp');
 
@@ -56,3 +57,6 @@ gulp.task('concat', function() {
 	.pipe(gulp.dest('./dist/css'));  
 });
 gulp.task('default', ['watch','sass','uglify','serve','concat']);
+=======
+'use strict';
+>>>>>>> bb795cf4a29c8c29a10eb4ed77c2c4673f3bc4b5

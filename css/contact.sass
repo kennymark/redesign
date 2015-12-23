@@ -1,0 +1,58 @@
+
+.form
+	margin: 0 auto
+	
+input
+	border: 0
+	border-bottom: 2px solid lighten($bg, 20%)
+	padding-top: 10px
+	width: 310px
+	font-family: $varela
+	color: lighten($black,10%)
+	font-size: 15px
+
+	&:focus
+		color: $bg 
+		outline: none
+		border-bottom: 2px solid darken($green, 5%)
+		transition: all .1s cubic-bezier(.37,-.79,.72,.32)
+
+.btn	
+	padding: 12px 15px
+	border: 2px solid darken($green, 10%)
+	background: white
+	margin: 50px auto
+	font-family: $mont
+	font-size: 18px
+	color: lighten($black, 40%)
+	text-align: center
+	width: 100px
+	cursor: pointer
+	&:hover
+		color: #fff
+		background: $green
+		transition: background .3s cubic-bezier(.37,-.79,.72,.32)
+		border: 2px solid $green
+
+	&:focus
+		border-bottom: 2px solid lighten($green, 10%)
+		transition: border-bottom .3s ease
+		outline: none
+
+textarea
+	border: 3px solid lighten($bg, 20%)
+	font-family: $varela
+	padding: 5px 5px
+	font-size: 16px
+
+	&:focus
+		color: $bg 
+		outline: none
+		border: 3px solid $green
+		transition: border .3s cubic-bezier(.37,-.79,.92,.32)
+label
+	margin: 70px 0
+	font-size: 19px
+	font-family: $mont
+	color: lighten($black, 35%)
+

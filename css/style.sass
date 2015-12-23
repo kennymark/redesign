@@ -1,0 +1,330 @@
+
+$green: #73BFA2
+$red: #E48482
+$blue: #8DABCF
+$orange: #EBA870
+$black: #000
+$w: 100%
+$bg: #373f45
+$varela: "Varela Round", sans-serif
+$mont: "Montserrat", sans-serif
+$border: 1px solid #ccc
+
+@import url(http://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.3/animate.min.css)
+@import url(https://fonts.googleapis.com/css?family=Varela+Round)
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700)
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css)
+@import "bourbon/bourbon"
+@import "neat/neat"
+
+*
+  margin: 0
+  padding: 0
+
+body
+  -webkit-font-smoothing: antialiased
+  -moz-osx-font-smoothing: grayscale
+  font-family: $varela
+  box-sizing: border-box
+
+nav
+  display: flex
+  height: 75px
+  width: 100%
+  background-color: #fff
+  justify-content: space-around
+  align-items: center
+  border-bottom: 1px solid #d5d7d8
+
+ul > a
+  list-style-type: none
+  display: inline-block
+  text-transform: capitalize
+  font-size: 18px
+  color: #888
+  padding-right: 15px
+  cursor: pointer
+  transition: all .24s ease-in
+  
+  &:hover
+    color: #444
+a
+  text-decoration: none
+.intro
+  position: absolute
+  z-index: 5
+  top: 50%
+  line-height: 1
+  left: 50%
+  transform: translate(-50%, -50%)
+  font-family: $mont
+  text-transform: capitalize
+  font-size: 90px
+  color: #f0f0f0
+
+.herosection
+  height: 75vh
+  background: darken($blue, 20%)
+  width: 100%
+  position: relative
+  background-image: url(../img/heroimg.jpg)
+  background-size: cover
+  background-position: center center
+
+.menubar
+  height: 100vh
+  background-color: $green
+  position: relative
+  z-index: 555
+  display: none !important
+  top: 0
+  display: flex
+  flex-direction: column
+  justify-content: center
+  align-items: center
+  a
+    color: white !important
+  
+.cutenav
+  position: fixed
+  left: 0
+  height: 155px
+  top: 50%
+  width: 50px
+  background: white
+  border: 
+    right: $border
+    top: $border
+    bottom: $border
+  box-shadow: 0px 1px 4px 0px rgba(0,0,0,0.14)
+  transform: translateY(-50%)
+
+
+.overlay
+  height: 75.2vh
+  width: 100%
+  background: darken($bg, 5%)
+  position: absolute
+  top: 76px
+  opacity: .8
+
+.active
+  color: #333
+
+.desc
+  width: 60%
+  margin: 40px auto 0
+  color: lighten($black,40%)
+  line-height: 1.5
+  font-size: 20px
+.profilesection
+  width: $w
+  background-color: white
+
+
+  .about
+    margin: 0 auto
+
+  .profilepic
+    width: 195px
+    height: 200px
+    background: $bg
+    margin: 40px auto
+    border-radius: 50%
+
+
+  .desc2
+    margin: 3px auto 20px !important
+
+.title
+  margin: 50px auto 
+  font-size: 29px
+  color: $bg
+  text-align: center
+  border-bottom: 3px solid $green
+  width: 110px
+
+.skill
+  text-align: center
+  color: $bg
+  font-size: 24px
+
+.topalign
+  margin-top: 20px
+
+.skillssection
+  width: $w
+  
+.box
+  margin: 0
+  height: 380px
+  
+
+.box1
+  width: 50%
+  float: left
+  background-color: lighten($black,91%)
+
+.box2
+  width: 50%
+  float: right
+  background-color: lighten($bg, 10%) !important
+
+.portfoliosection
+  background-color: darken($green, 15%)
+
+.center
+  position: relative !important
+  top: 50%
+  left: 50%
+  transform: translate(-50%, -50%) 
+
+
+footer 
+  height: 140px
+  width: $w
+  background-color: $bg
+  text-align: center
+  position: relative
+  bottom: 0
+  z-index: 10
+
+  a
+    text-decoration: none
+   
+.social
+  color: white
+  margin: 0 auto
+  @extend .center
+  padding: 10px 0 0 0
+
+  a
+    color: lighten($black, 80%)
+    font-size: 21px
+    padding: 0 10px
+
+.copyright
+  color: lighten($black, 80%)
+  margin-top: 30px
+  font-size: 14px
+        
+.backtotop
+  width: 60px
+  height: 60px
+  border-radius: 50%
+  background-color: #73BFA2
+  position: absolute
+  left: 90%
+  top: -33px
+ 
+
+.bruh
+  visibility: hidden
+//=============ICONS===============/*/
+.fa-position
+  position: absolute
+  right: 15px
+  top: 28px
+
+.cutenavstuff 
+  font-size: 22px
+  color: lighten($bg, 15%)
+  &:hover
+    transition: color .3s 
+    color: $green
+.fa
+  cursor: pointer
+
+.fa-caret-down
+  position: static !important
+  color: $green
+  margin-left: 10px 
+  margin-top: 10px
+  font-size: 24px
+
+.fa-bars
+  color: #999
+  font-size: 20px
+  @extend .fa-position
+
+  &:hover
+    transition: all .2s
+    color: #555
+.fa-times
+  font-size: 30px
+  @extend .fa-position
+
+  &:hover
+    color: #f0f0f0
+    transition: all .2s
+
+.fa-user 
+  @extend .center
+  top: 19px
+  @extend .cutenavstuff
+
+.fa-code
+  top: 35px
+  @extend .center
+  @extend .cutenavstuff
+
+.fa-briefcase
+  top: 60px
+  @extend .center
+  @extend .cutenavstuff
+
+.fa-phone
+  margin-top: -12px
+  @extend .center
+  @extend .cutenavstuff
+
+.fa-angle-up
+  position: static !important
+  margin-top: 11px
+  color: lighten($black, 90%)
+  font-size: 34px
+
+//==============End of icons========*/
+::selection 
+  background-color: lighten($green, 10%)
+  color: white
+
+::-moz-selection
+  background-color: lighten($green, 10%)
+  color: white
+
+//=====Imports=========//
+@import "contact"
+//====================//
+
+@media screen and (max-width: 675px)
+
+  nav 
+    height:  65px
+    position: fixed
+    z-index: 6
+
+  .intro
+    font-size: 60px
+  .herosection
+    top: 53px
+  .overlay
+    top: 52px
+  .fa-bars
+    margin-top: -9px
+    font-size: 24px
+  ul  a
+    display: none
+  .box
+    display: block
+  .desc
+    width: 85% !important
+    font-size: 17px !important
+  .backtotop
+    display: none !important
+  input
+    width: 95%
+  textarea
+    width: 95%
+    
+ 
