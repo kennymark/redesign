@@ -67,12 +67,9 @@ $('.active').css("width", '20px')
 
 $('.fa-bars').on('click',function(){
   $('.menubar').addClass('animated bounceInDown').fadeToggle(200);
-<<<<<<< HEAD
   $('.menubar').show();
-=======
   $('nav').hide();
   
->>>>>>> bb795cf4a29c8c29a10eb4ed77c2c4673f3bc4b5
 });
 
 $('.fa-times').on('click',function(){
@@ -83,11 +80,8 @@ $('.fa-times').on('click',function(){
 });
 
 $('.fa-caret-down').on('click', function(){
-<<<<<<< HEAD
   $('.desc2').slideToggle(300);
-=======
   $('.desc2').slideToggle(200);
->>>>>>> bb795cf4a29c8c29a10eb4ed77c2c4673f3bc4b5
 });
 
 $('ul a').click(function(e){
