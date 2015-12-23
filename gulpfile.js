@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 // Gulp
 var gulp = require('gulp');
 
@@ -9,7 +8,7 @@ var autoprefixer = require('gulp-autoprefixer');
 var uglify = require('gulp-uglify');
 var browserSync = require("browser-sync").create();
 var concat = require('gulp-concat');
-// Static Server + watching scss/html files
+var imagemin = require('gulp-imagemin');
 
 gulp.task('serve', function() {
     browserSync.init({
@@ -20,7 +19,16 @@ gulp.task('serve', function() {
    
 });
 
+gulp.task('imagemin', function() {
+    gulp.src('./img/*jpg')
+    .pipe(plumber({
+      progressive: true,
+      svgoPlugins: [{removeViewBox: false}]
+    }))
 
+    .pipe(imagemin())
+    .pipe(gulp.dest('./dist/img'))
+});
  gulp.task('sass', function () {
     gulp.src('./sass/**/*.sass')
    .pipe(plumber())
@@ -57,6 +65,4 @@ gulp.task('concat', function() {
 	.pipe(gulp.dest('./dist/css'));  
 });
 gulp.task('default', ['watch','sass','uglify','serve','concat']);
-=======
 'use strict';
->>>>>>> bb795cf4a29c8c29a10eb4ed77c2c4673f3bc4b5
