@@ -1,0 +1,27 @@
+{
+  "name": "simplegrid",
+  "homepage": "https://github.com/ryanandal/simplegrid",
+  "authors": [
+    "Ryan Andal <ryan@thesecretlocation.com>"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "dist",
+    "build"
+  ],
+  "description": "A very simple sass grid",
+  "main": "simplegrid.sass",
+  "license": "MIT",
+  "_release": "904dcd691c",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "904dcd691c9644e89242749a6e33521b505d07cf"
+  },
+  "_source": "git://github.com/ryanandal/simplegrid.git",
+  "_target": "*",
+  "_originalSource": "simplegrid",
+  "_direct": true
+}

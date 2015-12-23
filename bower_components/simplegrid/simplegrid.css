@@ -1,0 +1,38 @@
+/************************************************************
+ * SimpleGrid
+ ***********************************************************
+
+/* Setup the simplegrid
+ *
+ * @param px $_padding - a pixel value of the padding between grid items
+
+=simpleGrid($_padding)
+  $maxCols: 12
+  $halfPadding: $_padding / 2
+
+  padding: 0 $halfPadding
+
+  @for $i from 1 through $maxCols
+    .col-#{$i}
+      float: left
+      padding: 0 $halfPadding
+      width: 100% / $i
+
+  /* Each set of columns must be encapsulated by a 
+   * row to enable this clearfix to work
+
+  .row
+    &:after
+      content: ""
+      display: table
+      clear: both
+
+/* Add a break point to the columns
+ *
+ * @param int $_colNum - the column number that the breakpoint will affect
+ * @param px $_breakpoint - a pixel value of the breakpiont for max-width (ex: "960px")
+
+=addSimpleGridBreakPoint($_colNum, $_breakpoint)
+  @media (max-width: $_breakpoint)
+    .col-#{$_colNum}
+      width: 100%
