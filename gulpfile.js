@@ -8,7 +8,6 @@ var autoprefixer = require('gulp-autoprefixer');
 var uglify = require('gulp-uglify');
 var browserSync = require("browser-sync").create();
 var concat = require('gulp-concat');
-var imagemin = require('gulp-imagemin');
 
 gulp.task('serve', function() {
     browserSync.init({
@@ -19,17 +18,8 @@ gulp.task('serve', function() {
    
 });
 
-gulp.task('imagemin', function() {
-    gulp.src('./img/*jpg')
-    .pipe(plumber({
-      progressive: true,
-      svgoPlugins: [{removeViewBox: false}]
-    }))
 
-    .pipe(imagemin())
-    .pipe(gulp.dest('./dist/img'))
-});
- gulp.task('sass', function () {
+gulp.task('sass', function () {
     gulp.src('./sass/**/*.sass')
    .pipe(plumber())
    .pipe(sass({outputStyle: 'compressed'}))

@@ -1,0 +1,214 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'instal',
+1 verbose cli   'gulp-image',
+1 verbose cli   '--save-dev' ]
+2 info using npm@2.11.2
+3 info using node@v0.12.5
+4 verbose install initial load of C:\Users\sleek\Documents\Git\redesign\package.json
+5 warn package.json redesign@1.0.0 No README data
+6 verbose installManyTop reading scoped package data from C:\Users\sleek\Documents\Git\redesign\node_modules\browser-sync\package.json
+7 verbose installManyTop reading scoped package data from C:\Users\sleek\Documents\Git\redesign\node_modules\gulp\package.json
+8 verbose installManyTop reading scoped package data from C:\Users\sleek\Documents\Git\redesign\node_modules\gulp-autoprefixer\package.json
+9 verbose installManyTop reading scoped package data from C:\Users\sleek\Documents\Git\redesign\node_modules\gulp-concat\package.json
+10 verbose installManyTop reading scoped package data from C:\Users\sleek\Documents\Git\redesign\node_modules\gulp-image\package.json
+11 verbose installManyTop reading scoped package data from C:\Users\sleek\Documents\Git\redesign\node_modules\gulp-plumber\package.json
+12 verbose installManyTop reading scoped package data from C:\Users\sleek\Documents\Git\redesign\node_modules\gulp-sass\package.json
+13 verbose installManyTop reading scoped package data from C:\Users\sleek\Documents\Git\redesign\node_modules\gulp-uglify\package.json
+14 verbose installManyTop reading scoped package data from C:\Users\sleek\Documents\Git\redesign\node_modules\npm-debug.log\package.json
+15 verbose readDependencies loading dependencies from C:\Users\sleek\Documents\Git\redesign\package.json
+16 verbose install gulp-image is installed as 1.3.0
+17 silly cache add args [ 'gulp-image', null ]
+18 verbose cache add spec gulp-image
+19 silly cache add parsed spec { raw: 'gulp-image',
+19 silly cache add   scope: null,
+19 silly cache add   name: 'gulp-image',
+19 silly cache add   rawSpec: '',
+19 silly cache add   spec: '*',
+19 silly cache add   type: 'range' }
+20 silly addNamed gulp-image@*
+21 verbose addNamed "*" is a valid semver range for gulp-image
+22 silly addNameRange { name: 'gulp-image', range: '*', hasData: false }
+23 silly mapToRegistry name gulp-image
+24 silly mapToRegistry using default registry
+25 silly mapToRegistry registry https://registry.npmjs.org/
+26 silly mapToRegistry uri https://registry.npmjs.org/gulp-image
+27 verbose addNameRange registry:https://registry.npmjs.org/gulp-image not in flight; fetching
+28 verbose request uri https://registry.npmjs.org/gulp-image
+29 verbose request no auth needed
+30 info attempt registry request try #1 at 11:19:19 PM
+31 verbose request id 011ec0ef3f834c11
+32 verbose etag "2IWEZ4WPNE753VW4EERGEZVL0"
+33 http request GET https://registry.npmjs.org/gulp-image
+34 http 304 https://registry.npmjs.org/gulp-image
+35 silly get cb [ 304,
+35 silly get   { date: 'Wed, 23 Dec 2015 23:19:17 GMT',
+35 silly get     via: '1.1 varnish',
+35 silly get     'cache-control': 'max-age=300',
+35 silly get     etag: '"2IWEZ4WPNE753VW4EERGEZVL0"',
+35 silly get     age: '0',
+35 silly get     connection: 'keep-alive',
+35 silly get     'x-served-by': 'cache-lcy1125-LCY',
+35 silly get     'x-cache': 'MISS',
+35 silly get     'x-cache-hits': '0',
+35 silly get     'x-timer': 'S1450912757.663577,VS0,VE612',
+35 silly get     vary: 'Accept' } ]
+36 verbose etag https://registry.npmjs.org/gulp-image from cache
+37 verbose get saving gulp-image to C:\Users\sleek\AppData\Roaming\npm-cache\registry.npmjs.org\gulp-image\.cache.json
+38 silly addNameRange number 2 { name: 'gulp-image', range: '*', hasData: true }
+39 silly addNameRange versions [ 'gulp-image',
+39 silly addNameRange   [ '0.0.1',
+39 silly addNameRange     '0.0.2',
+39 silly addNameRange     '0.1.0',
+39 silly addNameRange     '0.1.1',
+39 silly addNameRange     '0.1.2',
+39 silly addNameRange     '0.1.3',
+39 silly addNameRange     '0.1.4',
+39 silly addNameRange     '0.1.5',
+39 silly addNameRange     '0.1.6',
+39 silly addNameRange     '0.2.0',
+39 silly addNameRange     '0.2.1',
+39 silly addNameRange     '0.3.0',
+39 silly addNameRange     '0.3.1',
+39 silly addNameRange     '0.3.2',
+39 silly addNameRange     '0.3.3',
+39 silly addNameRange     '0.3.4',
+39 silly addNameRange     '0.4.0',
+39 silly addNameRange     '0.4.1',
+39 silly addNameRange     '0.4.2',
+39 silly addNameRange     '0.4.3',
+39 silly addNameRange     '0.4.6',
+39 silly addNameRange     '0.4.7',
+39 silly addNameRange     '0.4.8',
+39 silly addNameRange     '0.5.0',
+39 silly addNameRange     '0.5.1',
+39 silly addNameRange     '0.5.2',
+39 silly addNameRange     '0.5.3',
+39 silly addNameRange     '0.5.4',
+39 silly addNameRange     '0.5.5',
+39 silly addNameRange     '0.5.6',
+39 silly addNameRange     '0.5.7',
+39 silly addNameRange     '0.5.8',
+39 silly addNameRange     '1.0.0',
+39 silly addNameRange     '1.0.1',
+39 silly addNameRange     '1.0.2',
+39 silly addNameRange     '1.0.3',
+39 silly addNameRange     '1.0.4',
+39 silly addNameRange     '1.0.5',
+39 silly addNameRange     '1.0.6',
+39 silly addNameRange     '1.1.0',
+39 silly addNameRange     '1.1.1',
+39 silly addNameRange     '1.1.2',
+39 silly addNameRange     '1.2.0',
+39 silly addNameRange     '1.2.1',
+39 silly addNameRange     '1.3.0' ] ]
+40 silly addNamed gulp-image@1.3.0
+41 verbose addNamed "1.3.0" is a plain semver version for gulp-image
+42 silly cache afterAdd gulp-image@1.3.0
+43 verbose afterAdd C:\Users\sleek\AppData\Roaming\npm-cache\gulp-image\1.3.0\package\package.json not in flight; writing
+44 verbose afterAdd C:\Users\sleek\AppData\Roaming\npm-cache\gulp-image\1.3.0\package\package.json written
+45 silly install resolved [ { name: 'gulp-image',
+45 silly install resolved     version: '1.3.0',
+45 silly install resolved     description: 'Optimize PNG, JPG, GIF, SVG images with gulp task.',
+45 silly install resolved     repository: { type: 'git', url: 'git://github.com/1000ch/gulp-image.git' },
+45 silly install resolved     author:
+45 silly install resolved      { name: '1000ch',
+45 silly install resolved        email: 'shogo.sensui@gmail.com',
+45 silly install resolved        url: 'http://github.com/1000ch' },
+45 silly install resolved     license: 'MIT',
+45 silly install resolved     engines: { node: '>=0.10.0' },
+45 silly install resolved     scripts: { test: 'mocha --require intelli-espower-loader --timeout=50000 --reporter=spec test/test.js' },
+45 silly install resolved     bugs: { url: 'https://github.com/1000ch/gulp-image/issues' },
+45 silly install resolved     dependencies:
+45 silly install resolved      { 'advpng-bin': '^3.0.0',
+45 silly install resolved        async: '^1.5.0',
+45 silly install resolved        chalk: '^1.1.1',
+45 silly install resolved        filesize: '^3.1.4',
+45 silly install resolved        gifsicle: '^3.0.3',
+45 silly install resolved        'gulp-util': '^3.0.7',
+45 silly install resolved        'jpeg-recompress-bin': '^3.0.1',
+45 silly install resolved        'jpegoptim-bin': '^3.0.0',
+45 silly install resolved        'map-stream': '^0.1.0',
+45 silly install resolved        mozjpeg: '^4.1.1',
+45 silly install resolved        'object-assign': '^4.0.1',
+45 silly install resolved        'optipng-bin': '^3.0.4',
+45 silly install resolved        'pngquant-bin': '^3.0.0',
+45 silly install resolved        svgo: '^0.6.0',
+45 silly install resolved        'temp-write': '^2.1.0',
+45 silly install resolved        tempfile: '^1.1.1',
+45 silly install resolved        'zopflipng-bin': '^3.0.1' },
+45 silly install resolved     devDependencies:
+45 silly install resolved      { 'espower-loader': '^1.0.0',
+45 silly install resolved        'intelli-espower-loader': '^1.0.0',
+45 silly install resolved        mocha: '^2.3.4',
+45 silly install resolved        'power-assert': '^1.2.0' },
+45 silly install resolved     keywords:
+45 silly install resolved      [ 'compress',
+45 silly install resolved        'minify',
+45 silly install resolved        'optimize',
+45 silly install resolved        'image',
+45 silly install resolved        'img',
+45 silly install resolved        'jpg',
+45 silly install resolved        'jpeg',
+45 silly install resolved        'png',
+45 silly install resolved        'gif',
+45 silly install resolved        'svg',
+45 silly install resolved        'gulpplugin' ],
+45 silly install resolved     gitHead: 'c2b5bcc1d63c5ac54d2908ec2dd9b4d91949267c',
+45 silly install resolved     homepage: 'https://github.com/1000ch/gulp-image#readme',
+45 silly install resolved     _id: 'gulp-image@1.3.0',
+45 silly install resolved     _shasum: '713328201a3718226a668d9ddf281f0cba90458b',
+45 silly install resolved     _from: 'gulp-image@*',
+45 silly install resolved     _npmVersion: '2.14.7',
+45 silly install resolved     _nodeVersion: '4.2.3',
+45 silly install resolved     _npmUser: { name: '1000ch', email: 'shogo.sensui@gmail.com' },
+45 silly install resolved     dist:
+45 silly install resolved      { shasum: '713328201a3718226a668d9ddf281f0cba90458b',
+45 silly install resolved        tarball: 'http://registry.npmjs.org/gulp-image/-/gulp-image-1.3.0.tgz' },
+45 silly install resolved     maintainers: [ [Object] ],
+45 silly install resolved     directories: {},
+45 silly install resolved     _resolved: 'https://registry.npmjs.org/gulp-image/-/gulp-image-1.3.0.tgz',
+45 silly install resolved     readme: 'ERROR: No README data found!' } ]
+46 info install gulp-image@1.3.0 into C:\Users\sleek\Documents\Git\redesign
+47 info installOne gulp-image@1.3.0
+48 verbose installOne of gulp-image to C:\Users\sleek\Documents\Git\redesign not in flight; installing
+49 verbose lock using C:\Users\sleek\AppData\Roaming\npm-cache\_locks\gulp-image-309eb0631fd1c7a5.lock for C:\Users\sleek\Documents\Git\redesign\node_modules\gulp-image
+50 silly install write writing gulp-image 1.3.0 to C:\Users\sleek\Documents\Git\redesign\node_modules\gulp-image
+51 verbose unbuild node_modules\gulp-image
+52 info preuninstall gulp-image@1.3.0
+53 info uninstall gulp-image@1.3.0
+54 verbose unbuild rmStuff gulp-image@1.3.0 from C:\Users\sleek\Documents\Git\redesign\node_modules
+55 info postuninstall gulp-image@1.3.0
+56 silly gentlyRm C:\Users\sleek\Documents\Git\redesign\node_modules\gulp-image is being purged from base C:\Users\sleek\Documents\Git\redesign
+57 verbose gentlyRm don't care about contents; nuking C:\Users\sleek\Documents\Git\redesign\node_modules\gulp-image
+58 silly vacuum-fs purging C:\Users\sleek\Documents\Git\redesign\node_modules\gulp-image
+59 verbose unlock done using C:\Users\sleek\AppData\Roaming\npm-cache\_locks\gulp-image-309eb0631fd1c7a5.lock for C:\Users\sleek\Documents\Git\redesign\node_modules\gulp-image
+60 verbose stack Error: EPERM, unlink 'C:\Users\sleek\Documents\Git\redesign\node_modules\gulp-image\node_modules\zopflipng-bin\node_modules\bin-wrapper\node_modules\bin-check\node_modules\executable\node_modules\meow\node_modules\camelcase-keys\node_modules\map-obj\package.json'
+60 verbose stack     at Error (native)
+61 verbose cwd C:\Users\sleek\Documents\Git\redesign
+62 error Windows_NT 6.3.9600
+63 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "instal" "gulp-image" "--save-dev"
+64 error node v0.12.5
+65 error npm  v2.11.2
+66 error path C:\Users\sleek\Documents\Git\redesign\node_modules\gulp-image\node_modules\zopflipng-bin\node_modules\bin-wrapper\node_modules\bin-check\node_modules\executable\node_modules\meow\node_modules\camelcase-keys\node_modules\map-obj\package.json
+67 error code EPERM
+68 error errno -4048
+69 error Error: EPERM, unlink 'C:\Users\sleek\Documents\Git\redesign\node_modules\gulp-image\node_modules\zopflipng-bin\node_modules\bin-wrapper\node_modules\bin-check\node_modules\executable\node_modules\meow\node_modules\camelcase-keys\node_modules\map-obj\package.json'
+69 error     at Error (native)
+69 error  { [Error: EPERM, unlink 'C:\Users\sleek\Documents\Git\redesign\node_modules\gulp-image\node_modules\zopflipng-bin\node_modules\bin-wrapper\node_modules\bin-check\node_modules\executable\node_modules\meow\node_modules\camelcase-keys\node_modules\map-obj\package.json']
+69 error   errno: -4048,
+69 error   code: 'EPERM',
+69 error   path: 'C:\\Users\\sleek\\Documents\\Git\\redesign\\node_modules\\gulp-image\\node_modules\\zopflipng-bin\\node_modules\\bin-wrapper\\node_modules\\bin-check\\node_modules\\executable\\node_modules\\meow\\node_modules\\camelcase-keys\\node_modules\\map-obj\\package.json' }
+70 error Please try running this command again as root/Administrator.
+71 verbose exit [ -4048, true ]
+72 verbose unbuild node_modules\gulp-image
+73 silly gentlyRm C:\Users\sleek\Documents\Git\redesign\node_modules\gulp-image is being purged from base C:\Users\sleek\Documents\Git\redesign
+74 verbose gentlyRm don't care about contents; nuking C:\Users\sleek\Documents\Git\redesign\node_modules\gulp-image
+75 silly vacuum-fs purging C:\Users\sleek\Documents\Git\redesign\node_modules\gulp-image
+76 error error rolling back Error: EPERM, unlink 'C:\Users\sleek\Documents\Git\redesign\node_modules\gulp-image\node_modules\zopflipng-bin\node_modules\bin-wrapper\node_modules\bin-check\node_modules\executable\node_modules\meow\node_modules\camelcase-keys\node_modules\camelcase\readme.md'
+76 error error rolling back     at Error (native)
+76 error error rolling back  { [Error: EPERM, unlink 'C:\Users\sleek\Documents\Git\redesign\node_modules\gulp-image\node_modules\zopflipng-bin\node_modules\bin-wrapper\node_modules\bin-check\node_modules\executable\node_modules\meow\node_modules\camelcase-keys\node_modules\camelcase\readme.md']
+76 error error rolling back   errno: -4048,
+76 error error rolling back   code: 'EPERM',
+76 error error rolling back   path: 'C:\\Users\\sleek\\Documents\\Git\\redesign\\node_modules\\gulp-image\\node_modules\\zopflipng-bin\\node_modules\\bin-wrapper\\node_modules\\bin-check\\node_modules\\executable\\node_modules\\meow\\node_modules\\camelcase-keys\\node_modules\\camelcase\\readme.md' }
