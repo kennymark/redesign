@@ -77,20 +77,17 @@
          <h2 class="title">Contact</h2>
          <center>
             <div class="contactform">
-               <form action="" class="form">
-                  <div class="formside1">
+               <form action="" class="form" action="//formspree.io/kennymark@kennymark.me" method="POST">
                      <label for="">Subject</label> <br>
-                     <input type="text"> <br> <br>
+                     <input type="text"name="subject"> <br> <br>
                      <label for="">Your Name</label> <br>
-                     <input type="text" placeholder=""> <br> <br>
+                     <input type="text" name="name"> <br> <br>
                      <label for="">Email</label><br>
-                     <input type="email" > <br> <br>  
-                  </div>
-                  <div class="message">
+                     <input type="email" name="_replyto"> <br> <br>  
                      <label for="message">Message</label> <br> <br>
+                     <input type="text" name="_gotcha" style="display:none" />
                      <textarea name="" id="" cols="40" rows="12"></textarea> <br>
-                  </div>
-                  <input type="button" class="btn" value="Send">
+                  <input type="submit" class="btn" value="Send">
                </form>
             </div>
          </center>

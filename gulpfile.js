@@ -12,7 +12,8 @@ var concat = require('gulp-concat');
 gulp.task('serve', function() {
     browserSync.init({
         server: {
-            baseDir: "./"
+            baseDir: "./";
+            port: 8080
         }
     });
    
